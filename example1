@@ -1,0 +1,8 @@
+*test4.sp RLC circuit
+VS 1 0 2
+L1 1 2 10u
+R1 1 2 1k
+C1 2 0 5p
+.TRAN 100ps 100ns
+.PRINT tran V(2)
+.end

@@ -1,0 +1,8 @@
+#a circuit has diode
+Is 0 1 1
+r1 0 1 1
+r2 1 2 0.5
+d1 2 0 test
+.TRAN 100ps 1ns
+.PRINT tran v(2)
+.end
